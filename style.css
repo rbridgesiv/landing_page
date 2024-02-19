@@ -1,7 +1,13 @@
 * {
     font-family: Helvetica, sans-serif;
-    /*border: red solid;*/ 
+    /*border: red solid;*/
 }
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 
 .first_section {
     background-color: #1F2937;
@@ -10,6 +16,7 @@
 .header {
     display: flex;
     justify-content: space-around;
+    margin: 0px 75px 0px 75px;
 }
 
 .header_links {
@@ -35,7 +42,8 @@ a, link, .awesome2 {
     justify-content: space-around;
     align-items: center;
     gap: 55px;
-    padding: 20px 160px;
+    padding: 40px;
+    margin: 0px 75px 0px 75px;
     padding-bottom: 90px;
 }
 
@@ -55,12 +63,16 @@ a, link, .awesome2 {
     height: 250px;
 }
 
-button {
+.button1 {
     background-color: #3882F6;
-    border-radius: 4px;
+    border-radius: 8px;
     color: #F9FAF8;
     font-weight: bold;
     padding: 5px 10px;
+}
+
+.sect2 {
+    margin: 0px 75px 0px 75px;
 }
 
 .heading2 {
@@ -73,14 +85,87 @@ button {
 
 .infoblocks {
     display: flex;
-    overflow: auto;
-    gap: 18px;
+    justify-content: space-around;
 }
 
 .box1, .box2, .box3, .box4 {
-    display:inline-block;
-}
-{
+    gap: 18px;
     border:#3882F6 solid;
+    border-width: 3px;
     border-radius: 15px;
+    height: 150px;
+    width: 150px;
 }
+
+.subtexts {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    font-size: 18px;
+    color: #8c8c8c;
+    margin: 0px 22px 0px 22px;
+}
+
+.subtext {
+    text-align: justify;
+}
+
+.quote_container {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding: 90px 75px 20px 75px;
+}
+
+.quoted {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: right;
+    padding: 0px 90px 75px 90px;
+}
+
+.blue_container {
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 75px 20px 75px;
+    margin: 60px 75px 60px 75px;
+}
+
+.button_text {
+    font-size: 18px;
+    color:#F9FAF8;
+}
+
+.call_header {
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 8px 25px;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 15px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+
